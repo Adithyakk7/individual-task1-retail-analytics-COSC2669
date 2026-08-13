@@ -1,0 +1,16 @@
+# Raw datasets - publicly downloadable, not committed to keep repo lean
+# (see README.md for download links and instructions)
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Large generated intermediate file - reproducible via src/01_load_clean_walmart.py
+outputs/walmart_processed.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
