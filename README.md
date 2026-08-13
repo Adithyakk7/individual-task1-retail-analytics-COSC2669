@@ -33,7 +33,7 @@ easy enough to grab from the original sources:
 
 1. **Walmart Store Sales Forecasting**
    https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data
-   (needs a free Kaggle account)
+
    Grab `train.csv`, `features.csv`, `stores.csv` and put them in `data/`
 
 2. **Online Retail II**
