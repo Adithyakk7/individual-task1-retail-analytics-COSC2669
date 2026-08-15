@@ -18,7 +18,7 @@ steps are there, this is more just pulling out the key takeaways.
 Looking at what the Random Forest actually leans on (via feature
 importance): for Walmart, store `Size` alone is responsible for roughly
 half the model's predictive power, with CPI and Unemployment together
-adding another ~27%. Promotional markdown activity barely shows up —
+adding another ~27%. Promotional markdown activity barely shows up -
 under 3% combined. On the Online Retail side, `Frequency` (~60%) and
 `DistinctProducts` (~31%) dominate, with `Recency` sitting around 8%.
 
