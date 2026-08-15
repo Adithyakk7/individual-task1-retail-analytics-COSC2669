@@ -1,4 +1,4 @@
-# Insights Summary — Model Results
+# Insights Summary - Model Results
 
 This is the write-up of what came out of the analysis in the notebook
 (`notebooks/individual_task1_analysis.ipynb`). Full code and cleaning
@@ -22,9 +22,9 @@ adding another ~27%. Promotional markdown activity barely shows up —
 under 3% combined. On the Online Retail side, `Frequency` (~60%) and
 `DistinctProducts` (~31%) dominate, with `Recency` sitting around 8%.
 
-These are two completely different datasets — different country, different
+These are two completely different datasets - different country, different
 kind of retail, different granularity (store-week vs. individual
-customer) — and they're both telling a similar story: steady, structural
+customer) - and they're both telling a similar story: steady, structural
 signals (how big a store is, how often and how broadly a customer buys)
 predict commercial performance a lot better than short-term, transient
 ones (a one-off promo, how recently someone last shopped). For a
@@ -38,7 +38,7 @@ On both datasets, Random Forest ends up with noticeably higher recall
 than the Neural Network, while the Neural Network comes out ahead on
 precision. ROC-AUC is fairly close between the two models within each
 dataset, so they're roughly equally good overall at separating the
-classes — the real difference is where each one sets its cutoff for
+classes - the real difference is where each one sets its cutoff for
 calling something "high".
 
 Since this same pattern shows up on two datasets that otherwise have
@@ -46,7 +46,7 @@ nothing in common, it looks more like a general property of how these two
 algorithms behave when the classes are imbalanced, rather than something
 specific to either dataset. Practically, if missing a genuinely
 high-performing store-week or high-value customer is worse than
-occasionally over-flagging one — which seems reasonable for something
+occasionally over-flagging one - which seems reasonable for something
 like inventory planning or customer retention — Random Forest's higher
 recall makes it the more defensible pick of the two here.
 
