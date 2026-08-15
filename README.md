@@ -1,4 +1,4 @@
-# Individual Task 1 — Retail Commercial Analytics
+# Individual Task 1 - Retail Commercial Analytics
 
 COSC2669 — Individual Task 1, Part 1.3 (Data Analysis)
 
