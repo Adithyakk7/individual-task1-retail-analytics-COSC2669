@@ -10,7 +10,7 @@ for Part 1.1. The idea is looking at retail commercial performance from
 two angles — operational/store-level and customer-level — using the same
 two models on both, so the results actually line up for comparison.
 
-1. **Walmart Store Sales Forecasting** (Kaggle) — store/operational
+1. **Walmart Store Sales Forecasting** (Kaggle) - store/operational
    view, what drives weekly sales across stores and departments.
 2. **Online Retail II** (UCI) — customer view, what separates high-value
    customers from low-value ones based on their purchase history (RFM).
