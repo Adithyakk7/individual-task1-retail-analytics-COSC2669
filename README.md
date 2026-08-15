@@ -7,7 +7,7 @@ COSC2669 — Individual Task 1, Part 1.3 (Data Analysis)
 Two ML models (Random Forest, Neural Network) run on two public retail
 datasets, tied to the Commercial Data Analyst role at Coles Group I used
 for Part 1.1. The idea is looking at retail commercial performance from
-two angles — operational/store-level and customer-level — using the same
+two angles: operational/store-level and customer-level- using the same
 two models on both, so the results actually line up for comparison.
 
 1. **Walmart Store Sales Forecasting** (Kaggle) - store/operational
