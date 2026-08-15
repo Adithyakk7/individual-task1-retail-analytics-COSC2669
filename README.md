@@ -12,7 +12,7 @@ two models on both, so the results actually line up for comparison.
 
 1. **Walmart Store Sales Forecasting** (Kaggle) - store/operational
    view, what drives weekly sales across stores and departments.
-2. **Online Retail II** (UCI) — customer view, what separates high-value
+2. **Online Retail II** (UCI) - customer view, what separates high-value
    customers from low-value ones based on their purchase history (RFM).
 
 Full write-up of what I found: [`outputs/insights_summary.md`](outputs/insights_summary.md)
